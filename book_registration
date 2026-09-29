@@ -1,0 +1,37 @@
+print("================================")
+print("       BOOK REGISTRATION")
+print("================================")
+book_id = input("Enter Book ID: ")
+book_name = input("Enter Book Name: ")
+author = input("Enter Author Name: ")
+category = input("Enter Book Category: ")
+price = float(input("Enter Book Price: "))
+print("\n================================")
+print("      BOOK REGISTERED")
+print("================================")
+print("Book ID      :", book_id)
+print("Book Name    :", book_name)
+print("Author Name  :", author)
+print("Category     :", category)
+print("Price        :", price)
+print("================================")
+print("Book registered successfully!")
+
+OUTPUT:
+       BOOK REGISTRATION
+================================
+Enter Book ID: B102
+Enter Book Name: PYTHON
+Enter Author Name: RAMESH
+Enter Book Category: PROGRAMMING
+Enter Book Price: 490
+================================
+      BOOK REGISTERED
+================================
+Book ID      : B102
+Book Name    : PYTHON
+Author Name  : RAMESH
+Category     : PROGRAMMING
+Price        : 490.0
+================================
+Book registered successfully!
